@@ -1,11 +1,10 @@
 import styled from "styled-components";
-import project1 from "../assets/2.jpg";
-import project2 from "../assets/4.jpg";
-import project3 from "../assets/6.jpg";
-import project4 from "../assets/33.jpg";
+import project1 from "../assets/book-app1.jpg";
+import project2 from "../assets/food-app2.jpg";
+import project3 from "../assets/dad-joke-app1.jpg";
+import project4 from "../assets/react-note-app1.jpg";
 import {AiOutlineGithub} from "react-icons/ai";
 import {FiExternalLink} from "react-icons/fi";
-// import { GitHub, ExternalLink } from "react-feather";
 
 const Portfolio = () => {
     return (
@@ -19,15 +18,14 @@ const Portfolio = () => {
                     <Work>
                         <Img src={project1} />
                         <Layer>
-                            <h2>Earth Trotter</h2>
+                            <h2>Online Library</h2>
                             <Description>
-                                Full-stack MERN App for logging travels, displayed as markers on a an interactive world
-                                map.
+                            A Full-stack MERN App that you can search for books by category, title or author. 
                             </Description>
-                            <a href="https://github.com/XarahDion/final-project" target="_blank">
+                            <a href="https://github.com/Negar-La/Final-project" target="_blank">
                                 <AiOutlineGithub size={28} /><div>Code</div>
                             </a>
-                            <a href="https://www.earth-trotter.xarahdion.com/" target="_blank">
+                            <a href="https://my-online-library.onrender.com/" target="_blank">
                                 <FiExternalLink size={28} /><div>Demo</div>
                             </a>
                         </Layer>
@@ -35,29 +33,14 @@ const Portfolio = () => {
                     <Work>
                         <Img src={project2} />
                         <Layer>
-                            <h2>Wearably°</h2>
+                            <h2>Find your Food</h2>
                             <Description>
-                                E-commerce MERN stack app, by Anthony Kameka, Mariana Oka, Francis Vézina and I.
+                            A Full-stack MERN App for surfing the meals and get connected with cook (a live chat system).
                             </Description>
-                            <a href="https://github.com/XarahDion/e-commerce" target="_blank">
+                            <a href="https://github.com/Negar-La/Find-your-Food" target="_blank">
                                 <AiOutlineGithub size={28} /><div>Code</div>
                             </a>
-                            <a href="https://e-commerce-zl6k.onrender.com/" target="_blank">
-                                <FiExternalLink size={28} /><div>Demo</div>
-                            </a>
-                        </Layer>
-                    </Work>
-                    <Work>
-                        <Img src={project4} />
-                        <Layer>
-                            <h2>Landing Page</h2>
-                            <Description>
-                                A fully responsive landing page built along modern UI/UX standards with pure CSS3.
-                            </Description>
-                            <a href="https://github.com/XarahDion/landing-page" target="_blank">
-                                <AiOutlineGithub size={28} /><div>Code</div>
-                            </a>
-                            <a href="https://landing-page-u316.onrender.com/" target="_blank">
+                            <a href="https://find-your-food.onrender.com/" target="_blank">
                                 <FiExternalLink size={28} /><div>Demo</div>
                             </a>
                         </Layer>
@@ -65,15 +48,30 @@ const Portfolio = () => {
                     <Work>
                         <Img src={project3} />
                         <Layer>
-                            <h2>Current Weather</h2>
+                            <h2>Dad Jokes </h2>
                             <Description>
-                                A clone of The Weather Network's weather app built with React Native and Expo.
+                            A Dad Jokes Generator project with Feedback UI using HTML, CSS, and JavaScript.
                             </Description>
-                            <a href="https://github.com/XarahDion/current-weather-app" target="_blank">
+                            <a href="https://github.com/Negar-La/Dad-Jokes-Generator" target="_blank">
+                                <AiOutlineGithub size={28} /><div>Code</div>
+                            </a>
+                            <a href="https://dad-jokes-negar-la.vercel.app/" target="_blank">
+                                <FiExternalLink size={28} /><div>Demo</div>
+                            </a>
+                        </Layer>
+                    </Work>
+                    <Work>
+                        <Img src={project4} />
+                        <Layer>
+                            <h2>React Notes App</h2>
+                            <Description>
+                            A modern responsive react notes app
+                            </Description>
+                            <a href="https://github.com/Negar-La/React-Notes-App" target="_blank">
                                 <AiOutlineGithub size={28} /><div>Code</div>
                             </a>
                             <a
-                                href="https://appetize.io/embed/8bnmakzrptf1hv9dq7v7bnteem?autoplay=false&debug=true&device=iphone12&deviceColor=black&embed=true&orientation=portrait&scale=73&screenOnly=false&xDocMsg=true&xdocMsg=true&params=%7B%22EXDevMenuDisableAutoLaunch%22%3Atrue%2C%22EXKernelLaunchUrlDefaultsKey%22%3A%22exp%3A%2F%2Fexp.host%2F%40xarahdion%2F8929c3%2B3Fqz_6piO5%22%2C%22EXKernelDisableNuxDefaultsKey%22%3Atrue%7D"
+                                href="https://react-notes-app-8uii.onrender.com/"
                                 target="_blank"
                             >
                                 <FiExternalLink size={28} /><div>Demo</div>
@@ -164,7 +162,7 @@ const Layer = styled.div`
     }
 `;
 const Img = styled.img`
-    max-width: 100%;
+    width: 100%;
     border-radius: 20px;
     display: block;
     transition: transform 0.7s;

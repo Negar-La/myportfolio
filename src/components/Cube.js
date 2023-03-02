@@ -50,7 +50,7 @@ const StageCubeCont = styled.div`
         top: 50%;
         padding-top: 20%;
     }
-    @media screen and (max-width: 450.01px) {
+    @media screen and (max-width: 700.01px) {
         top: 127%;
         left: 12%;
         width: 80%;

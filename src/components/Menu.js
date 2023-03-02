@@ -52,10 +52,10 @@ const Item = styled.div`
   font-size: 1rem;
   &:hover {
     background: var(--gradient-text);
-        background-clip: text;
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-        font-weight: 800;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 800;
   }
 `;
 

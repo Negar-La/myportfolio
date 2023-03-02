@@ -23,7 +23,7 @@ import { MenuContext } from "./MenuContext";
 const HamburgerButton = styled.div`
   background: transparent;
   position: absolute;
-  top: -25px;
+  top: -20px;
   left: -20px;
   border: none;
   visibility: hidden;

@@ -99,7 +99,7 @@ const Main = styled.div`
         height: 130vh;
     }
     @media screen and (max-width: 820.01px)  {
-        height: 80vh;
+        height: 90vh;
     }
     @media screen and (max-width: 700px)  {
         height: 110vh;
