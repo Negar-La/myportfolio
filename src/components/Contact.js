@@ -3,8 +3,12 @@ import {FiGithub} from "react-icons/fi";
 import {AiOutlineMail} from "react-icons/ai";
 import {GrLinkedinOption} from "react-icons/gr";
 import Form from "./Form";
+import AnimatedLetters from "./AnimatedLetters";
 
 const Contact = () => {
+
+    const sentence = "Contact Me.".split("");
+
     return (
         <Main>
             <Anchor>
@@ -12,7 +16,15 @@ const Contact = () => {
             </Anchor>
             <Row>
                 <Col1>
-                    <Title>Contact.</Title>
+                    <Title>
+                      {sentence.map((letter, index)=>{
+                        return (
+                          <AnimatedLetters key={index}>
+                            {letter === " " ? "\u00A0" : letter}
+                          </AnimatedLetters>
+                        )
+                      })}
+                    </Title>
                     <Icons>
                         <a href="mailto:negar.lashgari@gmail.com" target="_blank" rel="noreferrer">
                             <AiOutlineMail size={25} color="lightgrey" />
@@ -67,6 +79,9 @@ const Icons = styled.div`
 `;
 const Title = styled.h1`
     padding-bottom: 12px;
+    span {
+        display: inline-block;
+    }
     @media screen and (max-width: 800px) {
         padding: 0;
     }

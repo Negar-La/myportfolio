@@ -16,7 +16,7 @@ const Menu = () => {
                 <a href="#about" onClick={() => setOpenMenu(!openMenu)}>About</a>
             </Item>
             <Item>
-                <a href="#portfolio" onClick={() => setOpenMenu(!openMenu)}>Projects</a>
+                <a href="#projects" onClick={() => setOpenMenu(!openMenu)}>Projects</a>
             </Item>
             <Item>
                 <a href="#contact" onClick={() => setOpenMenu(!openMenu)}>Contact</a>

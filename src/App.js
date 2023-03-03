@@ -1,6 +1,6 @@
 import About from "./components/About";
 import Contact from "./components/Contact";
-import Portfolio from "./components/Portfolio";
+import Projects from "./components/Projects";
 import GlobalStyle from "./GlobalStyle";
 import Navbar from "./components/Navbar";
 import styled from "styled-components";
@@ -16,7 +16,7 @@ const App = () => {
           <Div>
               <Home />
               <About />
-              <Portfolio />
+              <Projects />
               <Contact />
           </Div>
           <Menu />

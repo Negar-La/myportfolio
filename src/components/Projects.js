@@ -5,15 +5,27 @@ import project3 from "../assets/dad-joke-appS.jpg";
 import project4 from "../assets/react-note-appS.jpg";
 import {AiOutlineGithub} from "react-icons/ai";
 import {FiExternalLink} from "react-icons/fi";
+import AnimatedLetters from "./AnimatedLetters";
 
-const Portfolio = () => {
+const Projects = () => {
+
+    const sentence = "My Work.".split("");
+
     return (
         <Main>
             <Anchor>
-                <span id="portfolio"></span>
+                <span id="projects"></span>
             </Anchor>
             <div>
-                <h1>My Work.</h1>
+                <h1>
+                    {sentence.map((letter, index)=>{
+                        return (
+                          <AnimatedLetters key={index}>
+                            {letter === " " ? "\u00A0" : letter}
+                          </AnimatedLetters>
+                        )
+                    })}
+                </h1>
                 <WorkList>
                     <Work>
                         <Img src={project1} />
@@ -201,6 +213,11 @@ const WorkList = styled.div`
 const Main = styled.div`
     width: 100%;
     height: 90vh;
+    h1 {
+        span{
+            display: inline-block;
+        }
+    }
     @media screen and (max-width: 1100px) {
         height: 70vh;
     }
@@ -212,4 +229,4 @@ const Main = styled.div`
     }
 `;
 
-export default Portfolio;
+export default Projects;
