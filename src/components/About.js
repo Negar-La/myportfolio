@@ -107,7 +107,7 @@ const Row = styled.div`
 `;
 const Main = styled.div`
     width: 100%;
-    height: 100vh;
+    height: 120vh;
     @media screen and (max-width: 1100px) {
         height: 130vh;
     }

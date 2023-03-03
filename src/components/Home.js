@@ -1,5 +1,5 @@
 import styled, {keyframes} from "styled-components";
-import img from "../assets/about.jpg";
+import img from "../assets/001--.jpg";
 import AnimatedLetters from "./AnimatedLetters";
 
 
@@ -91,7 +91,7 @@ const Main = styled.div`
 
 const Img = styled.img`
     margin-top: 8%;
-    max-width: 30%;
+    max-width: 35%;
     border-radius: 6%;
     position: absolute;
     right: 8%;

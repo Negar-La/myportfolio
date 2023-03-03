@@ -17,7 +17,6 @@ const Cube = () => {
             </Face3>
             <Face4>
                  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" />
-                               
             </Face4>
             <Face5>
                 <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" alt="mongodb"/>
@@ -30,9 +29,8 @@ const Cube = () => {
   )
 }
 
-
 const StageCubeCont = styled.div`
-    width: 50%;
+    width: 40%;
     height: 100%;
     top: 100%;
     padding-top: 18%;

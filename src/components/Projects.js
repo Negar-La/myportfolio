@@ -95,7 +95,7 @@ const Projects = () => {
 };
 const Anchor = styled.h2`
     position: relative;
-    #portfolio {
+    #projects {
         position: absolute;
         left: 0;
         top: -90px;
@@ -212,7 +212,7 @@ const WorkList = styled.div`
 `;
 const Main = styled.div`
     width: 100%;
-    height: 90vh;
+    height: 100vh;
     h1 {
         span{
             display: inline-block;

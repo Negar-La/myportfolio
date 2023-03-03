@@ -5,7 +5,7 @@ import SchoolIcon from "@material-ui/icons/School";
 import WorkIcon from "@material-ui/icons/Work";
 import "./Experience.css"
 
-const Experience = () => {
+const Experience = () => { 
   return (
     <div>
         <VerticalTimeline className="timeline-root" lineColor="var(--gradient-text)" 
@@ -16,7 +16,7 @@ const Experience = () => {
             dateClassName="date"
             contentStyle={{ 
                          background: '#11081b', color: '#fff', padding: "1rem",  
-                         border: "1px solid white"
+                         border: "1px solid white", marginBottom: "-2.5rem"
                          }}
             iconStyle={{background: "var(--gradient-text)", color: "white"}}
             icon={<WorkIcon/>}>
@@ -32,7 +32,7 @@ const Experience = () => {
             dateClassName="date"
             contentStyle={{ 
                         background: '#11081b', color: '#fff', padding: "1rem",  
-                        border: "1px solid white"
+                        border: "1px solid white", marginBottom: "-3rem"
                         }}
             iconStyle={{background: "var(--gradient-text)", color: "white"}}
             icon={<SchoolIcon/>}>
