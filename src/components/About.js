@@ -15,14 +15,10 @@ const About = () => {
                     <Col2>
                         <Title>About Me.</Title>
                         <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
-                        molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum
-                        numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium
-                        optio, eaque rerum! Provident similique accusantium nemo autem. Veritatis
-                        obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam
-                        nihil, eveniet aliquid culpa officia aut! Impedit sit sunt quaerat, odit,
-                        tenetur error, harum nesciunt ipsum debitis quas aliquid. Reprehenderit,
-                        quia. 
+                        I'm always curious to learn new things and enjoy dealing with issues that require extensive research and brainstorming.
+                        I love programming because it allows me to create my own world and is filled with challenges. 
+                        Loving both front-end and back-end coding and interested in learning new technologies, languages, frameworks and methods, 
+                        my knowledge of modern web development includes HTML, CSS, ES6 JavasScript and React on the front-end, and NodeJS, ExpressJS and MongoDB on the back-end.
                         </p>
                         <div>
                             <Experience />

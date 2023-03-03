@@ -1,15 +1,40 @@
-import styled from "styled-components";
+import styled, {keyframes} from "styled-components";
 import img from "../assets/about.jpg";
+import AnimatedLetters from "./AnimatedLetters";
 
 
 const Home = () => {
+
+    const sentence = "Hi !".split("");
+    const sentence2 = "I'm Negar,".split("");
+    const sentence3 = "Full Stack Developer".split("");
     return (
         <Main id="home">
             <Text>
-                {/* <h3>Full Stack Developer</h3> */}
                 <h1>
-                  Hi !<br></br> I'm <span>Negar </span>,
-                  <br></br>A web developer.
+                  {sentence.map((letter, index)=>{
+                    return (
+                        <AnimatedLetters key={index}>
+                            {letter === " " ? "\u00A0" : letter}
+                        </AnimatedLetters>
+                    )
+                  })}
+                  <br></br>
+                  {sentence2.map((letter, index)=>{
+                    return (
+                        <AnimatedLetters key={index}>
+                            {letter === " " ? "\u00A0" : letter}
+                        </AnimatedLetters>
+                    )
+                  })}
+                           <br></br>
+                  {sentence3.map((letter, index)=>{
+                    return (
+                        <AnimatedLetters key={index}>
+                            {letter === " " ? "\u00A0" : letter}
+                        </AnimatedLetters>
+                    )
+                  })}
                 </h1>
             </Text>
             <Img src={img} alt="Negar" />
@@ -17,6 +42,10 @@ const Home = () => {
     );
 };
 
+const animation = keyframes`
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+`
 
 const Text = styled.div`
     margin-top: 12%;
@@ -24,22 +53,24 @@ const Text = styled.div`
     max-width: 50%;
     h1 {
         margin-top: 6%;
+      
     }
     span {
-        background: var(--gradient-text);
-        background-clip: text;
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
         font-weight: 800;
+        opacity: 0;
+        animation-name: ${animation};
+        animation-duration: 4s;
+        animation-fill-mode: forwards;
+        display: inline-block;
     }
     @media screen and (max-width: 1000px) {
-        max-width: 50%;
+        max-width: 55%;
+        font-size: 0.84rem;
     }
     @media screen and (max-width: 500px) {
-        max-width: 50%;
+        max-width: 52%;
         h3 {
             font-size: 14px;
-            min-width: 200px;
         }
     }
 `;
