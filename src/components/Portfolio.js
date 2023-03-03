@@ -1,8 +1,8 @@
 import styled from "styled-components";
-import project1 from "../assets/book-app1.jpg";
-import project2 from "../assets/food-app2.jpg";
-import project3 from "../assets/dad-joke-app1.jpg";
-import project4 from "../assets/react-note-app1.jpg";
+import project1 from "../assets/book-appS.jpg";
+import project2 from "../assets/food-appS.jpg";
+import project3 from "../assets/dad-joke-appS.jpg";
+import project4 from "../assets/react-note-appS.jpg";
 import {AiOutlineGithub} from "react-icons/ai";
 import {FiExternalLink} from "react-icons/fi";
 
