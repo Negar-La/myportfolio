@@ -22,10 +22,10 @@ const Portfolio = () => {
                             <Description>
                             A Full-stack MERN App that you can search for books by category, title or author. 
                             </Description>
-                            <a href="https://github.com/Negar-La/Final-project" target="_blank">
+                            <a href="https://github.com/Negar-La/Final-project" target="_blank" rel="noreferrer">
                                 <AiOutlineGithub size={28} /><div>Code</div>
                             </a>
-                            <a href="https://my-online-library.onrender.com/" target="_blank">
+                            <a href="https://my-online-library.onrender.com/" target="_blank" rel="noreferrer">
                                 <FiExternalLink size={28} /><div>Demo</div>
                             </a>
                         </Layer>
@@ -37,10 +37,10 @@ const Portfolio = () => {
                             <Description>
                             A Full-stack MERN App for surfing the meals and get connected with cook (a live chat system).
                             </Description>
-                            <a href="https://github.com/Negar-La/Find-your-Food" target="_blank">
+                            <a href="https://github.com/Negar-La/Find-your-Food" target="_blank" rel="noreferrer">
                                 <AiOutlineGithub size={28} /><div>Code</div>
                             </a>
-                            <a href="https://find-your-food.onrender.com/" target="_blank">
+                            <a href="https://find-your-food.onrender.com/" target="_blank" rel="noreferrer">
                                 <FiExternalLink size={28} /><div>Demo</div>
                             </a>
                         </Layer>
@@ -52,10 +52,10 @@ const Portfolio = () => {
                             <Description>
                             A Dad Jokes Generator project with Feedback UI using HTML, CSS, and JavaScript.
                             </Description>
-                            <a href="https://github.com/Negar-La/Dad-Jokes-Generator" target="_blank">
+                            <a href="https://github.com/Negar-La/Dad-Jokes-Generator" target="_blank" rel="noreferrer">
                                 <AiOutlineGithub size={28} /><div>Code</div>
                             </a>
-                            <a href="https://dad-jokes-negar-la.vercel.app/" target="_blank">
+                            <a href="https://dad-jokes-negar-la.vercel.app/" target="_blank" rel="noreferrer">
                                 <FiExternalLink size={28} /><div>Demo</div>
                             </a>
                         </Layer>
@@ -67,13 +67,11 @@ const Portfolio = () => {
                             <Description>
                             A modern responsive react notes app
                             </Description>
-                            <a href="https://github.com/Negar-La/React-Notes-App" target="_blank">
+                            <a href="https://github.com/Negar-La/React-Notes-App" target="_blank" rel="noreferrer">
                                 <AiOutlineGithub size={28} /><div>Code</div>
                             </a>
                             <a
-                                href="https://react-notes-app-8uii.onrender.com/"
-                                target="_blank"
-                            >
+                                href="https://react-notes-app-8uii.onrender.com/" target="_blank" rel="noreferrer">
                                 <FiExternalLink size={28} /><div>Demo</div>
                             </a>
                         </Layer>

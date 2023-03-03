@@ -10,7 +10,7 @@ const Menu = () => {
   return (
     <Wrapper open={openMenu}>
             <Item>
-                <a href="#" onClick={() => setOpenMenu(!openMenu)}>Home</a>
+                <a href="/#" onClick={() => setOpenMenu(!openMenu)}>Home</a>
             </Item>
             <Item>
                 <a href="#about" onClick={() => setOpenMenu(!openMenu)}>About</a>

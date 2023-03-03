@@ -14,13 +14,13 @@ const Contact = () => {
                 <Col1>
                     <Title>Contact.</Title>
                     <Icons>
-                        <a href="mailto:negar.lashgari@gmail.com" target="_blank">
+                        <a href="mailto:negar.lashgari@gmail.com" target="_blank" rel="noreferrer">
                             <AiOutlineMail size={25} color="lightgrey" />
                         </a>
-                        <a href="https://www.linkedin.com/in/negarlashgari/" target="_blank">
+                        <a href="https://www.linkedin.com/in/negarlashgari/" target="_blank" rel="noreferrer">
                             <GrLinkedinOption size={25} color="lightgrey" />
                         </a>
-                        <a href="https://github.com/Negar-La" target="_blank">
+                        <a href="https://github.com/Negar-La" target="_blank" rel="noreferrer">
                             <FiGithub size={25} color="lightgrey" />
                         </a>
                     </Icons>
