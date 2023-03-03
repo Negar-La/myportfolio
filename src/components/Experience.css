@@ -1,8 +1,6 @@
 .timeline-root {
     margin-top: 2rem;
-    
 }
-
 
 .date {
     color: rgb(255, 255, 255);
@@ -10,10 +8,8 @@
     margin-right: 1.5rem;
 }
 
-
 @media screen and (max-width: 1000px) {
     .timeline-root {
         padding-bottom: 2rem;
-        
     }
 }

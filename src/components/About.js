@@ -1,8 +1,13 @@
 import styled from "styled-components";
 import Cube from "./Cube";
 import Experience from "./Experience";
+import AnimatedLetters from "./AnimatedLetters";
+
 
 const About = () => {
+
+    const sentence = "About Me.".split("");
+
     return (
         <Main>
             <Anchor>
@@ -13,7 +18,15 @@ const About = () => {
                         <Cube/>
                     </Col1>
                     <Col2>
-                        <Title>About Me.</Title>
+                        <Title>
+                        {sentence.map((letter, index)=>{
+                            return (
+                        <AnimatedLetters key={index}>
+                            {letter === " " ? "\u00A0" : letter}
+                        </AnimatedLetters>
+                            )
+                         })}
+                        </Title>
                         <p>
                         I'm always curious to learn new things and enjoy dealing with issues that require extensive research and brainstorming.
                         I love programming because it allows me to create my own world and is filled with challenges. 
@@ -29,6 +42,7 @@ const About = () => {
     );
 };
 
+
 const Anchor = styled.h2`
     position: relative;
     #about {
@@ -42,6 +56,9 @@ const Anchor = styled.h2`
 
 const Title = styled.h1`
     padding-bottom: 2%;
+    span {
+        display: inline-block;
+    }
 `;
 const Col2 = styled.div`
     flex-basis: 60%;

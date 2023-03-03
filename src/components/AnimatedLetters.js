@@ -17,8 +17,6 @@ const AnimatedLetters = ({ children }) => {
         "scale3d(.9, 1.05, 1)",
         "scale3d(1, 1, 1)"
       ],
-        
-   
     })
     setIsPlaying(true)
   }
