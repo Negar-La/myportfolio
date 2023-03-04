@@ -51,6 +51,9 @@ const Anchor = styled.h2`
         top: -120px;
         height: 0;
         width: 0;
+        @media screen and (max-width: 500px) {
+            top: -60px;
+    }
     }
 `;
 

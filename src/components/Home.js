@@ -85,7 +85,7 @@ const Main = styled.div`
         height: 45vh;
     }
     @media screen and (max-width: 500px) {
-        height: 30vh;
+        height: 40vh;
     }
 `;
 
