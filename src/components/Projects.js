@@ -179,6 +179,7 @@ const Img = styled.img`
 `;
 const Work = styled.div`
     border-radius: 20px;
+    width: 90%;
     position: relative;
     overflow: hidden;
     box-shadow: 1px 0px 2px 3px rgba(255, 255, 255, 0.477);
@@ -194,6 +195,7 @@ const Work = styled.div`
     }
     @media screen and (max-width: 500px) {
         margin-bottom: 6%;
+        width: 80%;
     }
 `;
 const WorkList = styled.div`
@@ -208,6 +210,7 @@ const WorkList = styled.div`
     @media screen and (max-width: 500px) {
         display: flex;
         flex-direction: column;
+        align-items: center;
     }
 `;
 const Main = styled.div`

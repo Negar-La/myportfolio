@@ -5,8 +5,8 @@ const GlobalStyle = createGlobalStyle`
 @import 'animate.css';
 
 :root {
-    --gradient-text: -webkit-linear-gradient(45deg, #f55588 10%, #aa4cf2ac  100%);
-    --gradient-bar: linear-gradient(103.22deg, #FB286B -13.86%, #9000FF63 99.55%);
+    --gradient-text: -webkit-linear-gradient(89.97deg, #AE67FA 1.84%, #F49867 102.67%);
+    --gradient-bar: linear-gradient(103.22deg, #AE67FA -13.86%, #F49867 99.55%);
     font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
     line-height: 1.5;
     font-weight: 400;

@@ -1,17 +1,19 @@
 import styled from "styled-components";
-import React, { useRef } from 'react';
+import React, { useRef, useState } from 'react';
 import emailjs from 'emailjs-com';
 
 const Form = () => {
 
-    const form = useRef();
+    const formRef = useRef();
+    const [done, setDone] = useState(false);
 
     const handleSubmit = (e) => {
-        e.preventDefault();
+        e.preventDefault();  //prevent the page to refresh
     
-        emailjs.sendForm('service_kje18ll', 'template_00low3l', form.current, 'LqZSxi9gt1M7F6IiM')
+        emailjs.sendForm('service_kje18ll', 'template_00low3l', formRef.current, 'LqZSxi9gt1M7F6IiM')
           .then((result) => {
               console.log(result.text);
+              setDone(true)
           }, (error) => {
               console.log(error.text);
           });
@@ -21,14 +23,14 @@ const Form = () => {
  
 
     return (
-        <FormDiv name="submit-to-google-sheet" ref={form} onSubmit={handleSubmit}>
+        <FormDiv name="submit-to-google-sheet" ref={formRef} onSubmit={handleSubmit}>
             <input type="text" name="name" placeholder="Your Name" required />
             <input type="email" name="email" placeholder="Your Email" required />
             <textarea name="message" placeholder="Your Message"></textarea>
             <button type="submit" onSubmit={handleSubmit}>
                 Submit
             </button>
-            <span id="msg"></span>
+            <span id="msg"> {done  && "Thank you!"} </span>
         </FormDiv>
     );
 };
@@ -54,6 +56,7 @@ const FormDiv = styled.form`
     }
     span {
         margin-left: 20px;
+        font-weight: 500;
     }
 `;
 export default Form;
