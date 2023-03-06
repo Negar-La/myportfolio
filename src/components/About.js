@@ -115,16 +115,16 @@ const Main = styled.div`
         height: 130vh;
     }
     @media screen and (max-width: 820.01px)  {
-        height: 90vh;
+        height: 130vh;
     }
     @media screen and (max-width: 700px)  {
-        height: 110vh;
+        height: 170vh;
     }
     @media screen and (max-width: 500px) {
-        height: 140vh;
+        height: 190vh;
     }
     @media screen and (max-width: 380px) {
-        height: 180vh;
+        height: 210vh;
     }
 `;
 

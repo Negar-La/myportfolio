@@ -40,22 +40,28 @@ const StageCubeCont = styled.div`
     overflow: hidden;
     @media screen and (max-width: 1000px) {
         width: 50%;
-        height: 60%;
         top: 90%;
         left: -4%;
     }
     @media screen and (max-width: 820px)  {
-        top: 50%;
+        top: 60%;
+        height: 140%;
         padding-top: 20%;
     }
     @media screen and (max-width: 700.01px) {
-        top: 127%;
+        top: 147%;
+        left: 12%;
+        width: 80%;
+        padding-top: 14%;
+    }
+    @media screen and (max-width: 500.01px) {
+        top: 147%;
         left: 12%;
         width: 80%;
         padding-top: 14%;
     }
     @media screen and (max-width: 389px) {
-        top: 165%;
+        top: 170%;
         left: 12%;
         width: 80%;
         padding-top: 14%;

@@ -82,7 +82,7 @@ const Main = styled.div`
         height: 70vh;
     }
     @media screen and (max-width: 820px) and (max-height: 1200px) {
-        height: 45vh;
+        height: 60vh;
     }
     @media screen and (max-width: 500px) {
         height: 40vh;
