@@ -95,6 +95,7 @@ const Col1 = styled.div`
   @media screen and (max-width: 700px) {
   }
 `;
+
 const Row = styled.div`
   display: flex;
   justify-content: space-between;
@@ -102,22 +103,8 @@ const Row = styled.div`
 `;
 const Main = styled.div`
   width: 100%;
-  height: 120vh;
-  @media screen and (max-width: 1100px) {
-    height: 130vh;
-  }
-  @media screen and (max-width: 820.01px) {
-    height: 130vh;
-  }
-  @media screen and (max-width: 700px) {
-    height: 170vh;
-  }
-  @media screen and (max-width: 500px) {
-    height: 190vh;
-  }
-  @media screen and (max-width: 380px) {
-    height: 210vh;
-  }
+  min-height: 100vh; /* Ensures the component expands to at least 100% of the viewport height */
+  padding-top: 20px;
 `;
 
 export default About;

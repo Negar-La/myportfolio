@@ -1,6 +1,4 @@
 import styled from 'styled-components';
-import { faReact } from '@fortawesome/free-brands-svg-icons';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 const Cube = () => {
   return (
@@ -10,19 +8,19 @@ const Cube = () => {
           <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs" />
         </Face1>
         <Face2>
-          <FontAwesomeIcon icon={faReact} color="#5ED4F4" />
+          <img src="https://www.vectorlogo.zone/logos/reactjs/reactjs-icon.svg" alt="react" />
         </Face2>
         <Face3>
-          <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" />
+          <img src="https://www.vectorlogo.zone/logos/mysql/mysql-official.svg" alt="mysql" />
         </Face3>
         <Face4>
-          <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" />
+          <img src="https://www.vectorlogo.zone/logos/java/java-horizontal.svg" alt="Java" />
         </Face4>
         <Face5>
           <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" alt="mongodb" />
         </Face5>
         <Face6>
-          <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" />
+          <img src="https://www.vectorlogo.zone/logos/javascript/javascript-icon.svg" alt="javascript" />
         </Face6>
       </Cubespinner>
     </StageCubeCont>
