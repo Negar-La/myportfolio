@@ -21,8 +21,9 @@ const About = () => {
               return <AnimatedLetters key={index}>{letter === ' ' ? '\u00A0' : letter}</AnimatedLetters>;
             })}
           </Title>
+          <p>I'm always curious to learn new things and enjoy dealing with issues that require extensive research and brainstorming. I love programming because it allows me to create my own world and is filled with challenges.</p>
           <p>
-            I'm always curious to learn new things and enjoy dealing with issues that require extensive research and brainstorming. I love programming because it allows me to create my own world and is filled with challenges. Loving both front-end and back-end coding and interested in learning new technologies, languages, frameworks and methods, my knowledge of modern web development includes <strong>HTML</strong>, <strong>CSS</strong>, <strong>ES6 JavaScript</strong> and <strong>React</strong> on the front-end, and <strong>Node.js</strong>, <strong>Express.js</strong> and <strong>MongoDB</strong> on the back-end. Additionally, I'm exploring <strong>Java</strong> for backend development, <strong>MySQL</strong> for database management, and <strong>Spring Boot</strong> for building robust applications. I also have experience with <strong>WordPress</strong> for content management, <strong>Tailwind CSS</strong> for styling, and <strong>Figma</strong> for design prototyping.
+            Loving both front-end and back-end coding, my knowledge of modern web development includes <strong>HTML</strong>, <strong>CSS</strong>, <strong>ES6 JavaScript</strong> and <strong>React</strong> on the front-end, and <strong>Node.js</strong>, <strong>Express.js</strong> and <strong>MongoDB</strong> on the back-end. Additionally, I'm exploring <strong>Java</strong> for backend development, <strong>MySQL</strong> for database management, and <strong>Spring Boot</strong> for building robust applications. I also have experience with <strong>WordPress</strong> for content management, <strong>Tailwind CSS</strong> for styling, and <strong>Figma</strong> for design prototyping.
           </p>
 
           <div>
@@ -94,6 +95,7 @@ const Col1 = styled.div`
   @media screen and (max-width: 700px) {
   }
 `;
+
 const Row = styled.div`
   display: flex;
   justify-content: space-between;
@@ -101,22 +103,8 @@ const Row = styled.div`
 `;
 const Main = styled.div`
   width: 100%;
-  height: 120vh;
-  @media screen and (max-width: 1100px) {
-    height: 130vh;
-  }
-  @media screen and (max-width: 820.01px) {
-    height: 130vh;
-  }
-  @media screen and (max-width: 700px) {
-    height: 170vh;
-  }
-  @media screen and (max-width: 500px) {
-    height: 190vh;
-  }
-  @media screen and (max-width: 380px) {
-    height: 210vh;
-  }
+  min-height: 100vh; /* Ensures the component expands to at least 100% of the viewport height */
+  padding-top: 20px;
 `;
 
 export default About;
