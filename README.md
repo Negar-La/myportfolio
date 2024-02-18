@@ -3,7 +3,7 @@
   <img src="./src/assets/prog.svg" alt="Female Web Developer" width="200px">
 </div>
 
-Welcome to my portfolio! This is a one-page web application showcasing my skills, projects, and contact information.
+Welcome to my portfolio! This is a one-page web application showcasing my skills, projects, and contact information. 
 
 ## Overview 🌟
 
