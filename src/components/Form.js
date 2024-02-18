@@ -26,7 +26,7 @@ const Form = () => {
     <FormDiv name="submit-to-google-sheet" ref={formRef} onSubmit={handleSubmit}>
       <input type="text" name="name" placeholder="Your Name" required />
       <input type="email" name="email" placeholder="Your Email" required />
-      <textarea name="message" placeholder="Your Message"></textarea>
+      <textarea name="message" placeholder="Your Message" required></textarea>
       <button type="submit" onSubmit={handleSubmit}>
         Submit
       </button>
