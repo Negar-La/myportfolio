@@ -12,11 +12,11 @@ const Form = () => {
     emailjs
       .sendForm('service_kje18ll', 'template_00low3l', formRef.current, 'icqODf3FnuhSYIFq6')
       .then((result) => {
-        console.log(result.text);
+        // console.log(result.text);
         setMessage('Thank you!');
       })
       .catch((error) => {
-        console.log(error.text);
+        // console.log(error.text);
         setMessage('There was an error sending the email. Please try again later.');
       });
 
